@@ -4,13 +4,30 @@
 
 This activity is provide code that will create a table dynamically based upon a dataset supplied for the homework.
 
-In building the dashboard, pages were created with different visualizations and a means to navigate between them.   A dropdown bar and active links assoicated with the images were used for the navigation. The visualizations have a brief corresponding explanations. The dashboard starts with a landing page, then a page for comparing all of the plots, then individual plot pages and ends with a page where the data can be viewed.
+The homeowrk has 2 Levels.  Level 1 is required and Level 2 is Optional.
 
-## Dasboard description:
+Level 1: Automatic Table and Date Search (Required)
 
-## Landing Page
-- An explanation of the project.
-- Links to each visualizations page. THe landing page contains a sidebar with a  preview images of each plot, and clicking an image should take the user to that visualization.
+The provided index.html file provided was used as the basis for the effort and present the UFO dataset.
+
+JavaScript was used to first, present the entire table, and second, filter the table based on a date supplied by the user.
+
+The rendered table has a column for date, city, state, country, shape, and comment.
+
+
+Level 2: Multiple Search Categories (Optional)
+
+
+Complete all of Level 1 criteria.
+
+
+Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+
+date/time
+city
+state
+country
+shape
 
 <img src="/visualizations/landpg.PNG" width = "400">
 
