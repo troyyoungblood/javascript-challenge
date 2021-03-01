@@ -47,7 +47,7 @@ The Javascript, app.js, high-level pseudocode was:
 
 Images of initial rendering and sample filtered responses.
 
-<img src="/UFO_level_2/static/images/initial_render_l2.PNG" width = "550">
+<img src="/UFO_level_2/static/images/intial_render_l2.PNG" width = "550">
 <br>
 <img src="/UFO_level_2/static/images/date_filter_l2.PNG" width = "550">
 <br>
