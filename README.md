@@ -4,7 +4,7 @@
 
 This activity is provide code that will create a table dynamically based upon a dataset supplied for the homework.
 
-The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.
+The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.  Both Levels were completed.
 
 Level 1: Automatic Table and Date Search (Required)
 
@@ -14,13 +14,19 @@ JavaScript was used to present the entire table upon inital rendering then to fi
 
 The rendered table has a column for date, city, state, country, shape, and comment.
 
-Instructions were added to the basis index.html for making date requests and resetting the table.
+Instructions were added to the basis index.html for making date requests and Clear & Refresh button was added to reset the table.
+
+The Javascript file, app.js, high-level pseudocode was:
+ - render data displaying the full table
+ - identify connection (button) between html and JavaScript that would bring desired filter in app.js
+ - Using filter, create new array with only desired date for review
+ - Render/display desired date and associated data
 
 Images of initial rendering and date filtered response.
 
-<img src="/visualizations/landpg.PNG" width = "400">
+<img src="/static/images/initial_render.PNG" width = "400">
 
-<img src="/visualizations/temp.PNG" width = "400">
+<img src="/static/images/filtered_date.PNG" width = "400">
 
 Level 2: Multiple Search Categories (Optional)
 
