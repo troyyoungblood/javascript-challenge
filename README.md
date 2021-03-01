@@ -41,7 +41,7 @@ Objective was to use code from Level 1 and add addtional input tags so user can 
 The Javascript, app.js, high-level pseudocode was:
  - render data displaying the full table
  - identify connection (button) between html and JavaScript that would bring desired filter in app.js
- - amend code to use addtional filters
+ - amend code to use additional filters
  - Using filters in if statements and when criteria met, create new array with only desired data for review
  - Render/display desired data
 
