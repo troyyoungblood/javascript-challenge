@@ -34,6 +34,9 @@ function runClear() {
 // Complete the event handler function for filtering data
 function runEnter() {
 
+  // Prevent the page from refreshing
+  d3.event.preventDefault();
+
   // Select the input element and get the raw HTML node
   // this is the id associated with the respective input 
   let inputElement = d3.selectAll("#datetime");
