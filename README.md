@@ -4,16 +4,23 @@
 
 This activity is provide code that will create a table dynamically based upon a dataset supplied for the homework.
 
-The homeowrk has 2 Levels.  Level 1 is required and Level 2 is Optional.
+The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.
 
 Level 1: Automatic Table and Date Search (Required)
 
-The provided index.html file provided was used as the basis for the effort and present the UFO dataset.
+The index.html file provided was used as the basis for the effort to render the overall UFO and subsequently filtered datasets.
 
-JavaScript was used to first, present the entire table, and second, filter the table based on a date supplied by the user.
+JavaScript was used to present the entire table upon inital rendering then to filter the table based on a date supplied by the user.
 
 The rendered table has a column for date, city, state, country, shape, and comment.
 
+Instructions were added to the basis index.html for making date requests and resetting the table.
+
+Images of initial rendering and date filtered response.
+
+<img src="/visualizations/landpg.PNG" width = "400">
+
+<img src="/visualizations/temp.PNG" width = "400">
 
 Level 2: Multiple Search Categories (Optional)
 
@@ -29,14 +36,7 @@ state
 country
 shape
 
-<img src="/visualizations/landpg.PNG" width = "400">
 
-## Four visualization pages
-- A descriptive title and heading tag.
-- The plot/visualization itself for the selected comparison.
-- A paragraph describing the plot and its significance
-
-<img src="/visualizations/temp.PNG" width = "400">
 <img src="/visualizations/hum.PNG" width = "400">
 <img src="/visualizations/cloud.PNG" width = "400">
 <img src="/visualizations/wind.PNG" width = "400">
