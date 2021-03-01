@@ -6,7 +6,7 @@ This activity is provide code that will create a table dynamically based upon a 
 
 The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.  Both Levels were completed.
 
-Level 1: Automatic Table and Date Search (Required)
+### I. Level 1: Automatic Table and Date Search (Required) - completed
 
 The index.html file provided was used as the basis for the effort to render the overall UFO and subsequently filtered datasets.
 
@@ -24,45 +24,34 @@ The Javascript file, app.js, high-level pseudocode was:
 
 Images of initial rendering and date filtered response.
 
-<img src="/static/images/initial_render.PNG" width = "400">
+<img src="/UFO_level_1/static/images/initial_render.PNG" width = "400">
+<br>
+<img src="/UFO_level_1/static/images/filtered_date.PNG" width = "400">
 
-<img src="/static/images/filtered_date.PNG" width = "400">
-
-Level 2: Multiple Search Categories (Optional)
-
+### II.Level 2: Multiple Search Categories (Optional) - completed
 
 Complete all of Level 1 criteria.
 
+Objective was to use code from Level 1 and add addtional input tags so user can set multiple filters and search for UFO sightings in a more detailed manner.  The additional filters added were:
+ - city
+ - state
+ - country
+ - shape
 
-Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+The Javascript file, app.js, high-level pseudocode was:
+ - render data displaying the full table
+ - identify connection (button) between html and JavaScript that would bring desired filter in app.js
+ - amend code to use addtional filters
+ - Using filters in if statements and when criteria met, create new array with only desired data for review
+ - Render/display desired data
 
-date/time
-city
-state
-country
-shape
+Images of initial rendering and sample filtered responses.
 
-
-<img src="/visualizations/hum.PNG" width = "400">
-<img src="/visualizations/cloud.PNG" width = "400">
-<img src="/visualizations/wind.PNG" width = "400">
-
-## Comparison page
-- Contains a visualizations of all the plots on the same page so they can be easily compared.
-- Utilizes a Bootstrap grid for the visualizations.
-
-<img src="/visualizations/comp.PNG" width = "400">
-
-
-## Data page
-- The table utilizes a Bootstrap table component.
-
-<img src="/visualizations/data.PNG" width = "400">
-
-## Navigation Menu
-- The name of the site on the left of the navigation bar which allows users to return to the landing page from any page.
-- A dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-- Provides a link to the Comparisons page
-- Provides a link to the Data page
-- The navigation is responsive
+<img src="/UFO_level_2/static/images/initial_render_l2.PNG" width = "400">
+<br>
+<img src="/UFO_level_2/static/images/date_filter_l2.PNG" width = "400">
+<br>
+<img src="/UFO_level_2/static/images/date_s_filter_l2.PNG" width = "400">
+<br>
+<img src="/UFO_level_2/static/images/date_s_c_filter_l2.PNG" width = "400">
 
