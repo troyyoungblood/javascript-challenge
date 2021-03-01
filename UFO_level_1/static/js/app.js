@@ -37,6 +37,9 @@ function runClear() {
 // Complete the event handler function for the button
 function runEnter() {
 
+  // Prevent the page from refreshing
+  d3.event.preventDefault();
+
   // resets the table so only the filtered date
   // is displayed. If not completed, can have instances of 
   // filtered data being appended to the bottom of the entire table
