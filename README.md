@@ -10,13 +10,13 @@ The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.  Both L
 
 The index.html file provided was used as the basis for the effort to render the overall UFO and subsequently filtered datasets.
 
-JavaScript was used to present the entire table upon inital rendering then to filter the table based on a date supplied by the user.
+JavaScript was used to present the entire table upon inital rendering and then filter the table based on a date supplied by the user.
 
 The rendered table has a column for date, city, state, country, shape, and comment.
 
-Instructions were added to the basis index.html for making date requests and Clear & Refresh button was added to reset the table.
+Instructions were added to the basis index.html for how tp make a date request and Clear & Refresh button was added to reset the table.
 
-The Javascript file, app.js, high-level pseudocode was:
+The Javascript, app.js, high-level pseudocode was:
  - render data displaying the full table
  - identify connection (button) between html and JavaScript that would bring desired filter in app.js
  - Using filter, create new array with only desired date for review
@@ -38,7 +38,7 @@ Objective was to use code from Level 1 and add addtional input tags so user can 
  - country
  - shape
 
-The Javascript file, app.js, high-level pseudocode was:
+The Javascript, app.js, high-level pseudocode was:
  - render data displaying the full table
  - identify connection (button) between html and JavaScript that would bring desired filter in app.js
  - amend code to use addtional filters
