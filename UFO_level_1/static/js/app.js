@@ -1,36 +1,38 @@
 // from data.js
 
+let tableData = data;
+
 // // confirming table read into app correctly
 // console.log(tableData);
 
-let tableData = data;
-
+// this step renders the entire table for a starting point
 let tbody = d3.select("tbody");
 
-// this step renders the entire table for a starting point
-
 tableData.forEach((dateRequest) => {
-  let row = tbody.append("tr");
-  Object.entries(dateRequest).forEach(([key, value]) => {
-    let cell = row.append("td");
-    cell.text(value);
-  });
+    let row = tbody.append("tr");
+    Object.entries(dateRequest).forEach(([key, value]) => {
+        let cell = row.append("td");
+        cell.text(value);
+    });
 });
 
 // starting code for capturing user input and 
 // filtering the data based on date entered
 
-// Select the button
-let button = d3.select("#filter-btn");
+// Select the button to filter data
+let buttonEntry = d3.select("#filter-btn");
 
-// Select the form - not used for date entry
-// enter button is used to refresh the table to all listings
-// let form = d3.select("form");
+// Select button to refresh the page
+let buttonClear = d3.select("#clear-btn");
 
-// Create event handler  - as noted above, only filter-btn used to 
-// activate the filter function - enter refeshes the table
-button.on("click", runEnter);
-// form.on("submit",runEnter);
+// Create event handlers
+buttonEntry.on("click", runEnter);
+buttonClear.on("click", runClear);
+
+// Complete the event handler function for clearing data entry and resetting table
+function runClear() {
+    location.reload();
+};
 
 // Complete the event handler function for the button
 function runEnter() {
