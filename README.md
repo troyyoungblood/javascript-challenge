@@ -2,7 +2,7 @@
 20210303_HomeworkTY
 ## Welcome to javascript-challenge
 
-This activity is provide code that will create a table dynamically based upon a dataset supplied for the homework.
+This activity is to provide code that will create a table dynamically based upon a dataset supplied for the homework.
 
 The homework has 2 Levels.  Level 1 is required and Level 2 is Optional.  Both Levels were completed.
 
